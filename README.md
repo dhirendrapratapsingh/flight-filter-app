@@ -1,3 +1,87 @@
+### `Dependencies/Libraries used `
+
+[React JS(UI)](https://reactjs.org/docs/getting-started.html),
+[MaterializeCSS](https://materializecss.com/getting-started.html),
+[npm](https://www.npmjs.com/)
+
+The following cdns are included in index.html via scipt/links
+[MaterializeCSS](https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css)<br>
+
+
+### `Steps to create Project & add all dependencies in Windows OS`
+
+`Install nodejs npm ` <br>
+From the step by step Guide described here [Installation of Node JS on Window](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)
+
+npm install create-react-app -g<br>
+create-react-app trello-task-board<br>
+cd trello-task-board<br>
+npm start<br>
+
+Then open http://localhost:3005/ to see your app., You an configure to any port using .env variable<br>
+stop ctrl+c to add dependencies
+
+Copy update package.json with package.json of this project
+and run "npm install"
+
+replace src folder with my src folder to get code & resources<br>
+
+npm start<br>
+open http://localhost:3000/ to run app again.
+
+The build is minified by Webpack and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+
+### Problem Statemnet and basic Features
+
+Create a flight search results and success pages using React as shown in the mockup below,
+You're free to use any CSS libraries and colors of your choice to make the UI look better.
+The JSON for the search results and airline names comes attached with the mail.
+
+## Objectives
+
+1. Create a search results page with attached flight results data like the UI Mockup shown below.
+2. Convert dates in the flight results section to a neatly formatted version as shown in Mockup.
+3. Add filter section with the list of airlines from search results JSON, the airline's filter should
+be functional(i.e when the checkbox is unchecked/checked the matching flight result should
+be either added or removed)
+4. When the Book Flight section is clicked the route/page should be redirected to a success
+page with selected flight data as shown in the mockup.
+5. Bonus, If the site is made responsive which works multiple viewport sizes
+Frontend Assignment
+Create a flight search results and success pages using React as shown in the mockup below,
+You're free to use any CSS libraries and colors of your choice to make the UI look better.
+The JSON for the search results and airline names comes attached with the mail.
+Simple Flight Application
+
+
+### Extra items implemented
+
+- Beautiful easy to usre checkboxes & material UI items
+- used React 17 having impeccable performance
+- Implemented Code re-use techniques
+- Added Fallback UI to handle negative cases
+- Added error handling and validation check practices
+- Fully reponsve UI
+- Animated
+
+### Screeshots
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

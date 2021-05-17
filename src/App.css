@@ -1,3 +1,24 @@
+body{
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+  background-color: #b8c6db;
+
+}
+html{
+  height: 100%;
+}
+
+
+main {
+  flex: 1 0 auto;
+}
+
+footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  padding-top: 0px !important;
+}
+
 .App {
   text-align: center;
 }
@@ -9,23 +30,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +42,83 @@
     transform: rotate(360deg);
   }
 }
+
+.card-content{
+  padding: 0px !important;
+}
+
+label{
+  display: block;
+}
+.bold{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.post img{
+  position: absolute;
+  top: -5px;
+  left: -6%;
+  opacity: 0.5;
+  max-width: 15%;
+}
+
+.bookNowLink{
+  position: absolute;
+  top: 0px;
+  right: 0px !important;
+  width: 100px;
+  height: -webkit-fill-available;
+  cursor: pointer;
+  padding: 10px 0 !important;
+}
+
+.bookNowLink label{
+  color: white !important;
+}
+.priceAmount{
+ font-size: 16px;
+ font-weight: bold;
+}
+
+.post{
+  overflow: hidden;
+  padding-left: 80px;
+  padding: 10px 0;
+  
+}
+
+.filter-heading{
+  padding: 20px 0;
+  background: #ee6e73;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.flight-filters{
+  font-size: 14px;
+  position: relative;
+  right: -15%;
+  top: -25px;
+  cursor: pointer;
+}
+
+.flight-filters-title
+{
+  padding: 0 10%;
+}
+
+/* Flight Details Page */
+
+.iternaryDetails
+{
+  color: gray;
+  font-size: small;
+}
+
+#Company-logo{
+  width: 20%;
+    margin: auto;
+}
+
